@@ -1,0 +1,174 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  	font-family: 'Poppins', sans-serif;
+  padding: 0;
+}
+body,html{
+  background-color: #171515;
+}
+.header{
+  justify-content: space-between;
+  background-color: black;
+}
+
+.checkbox{
+  display: none;
+}
+
+#logo{
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+  padding: 15px;
+}
+
+#logo span{
+  color: #47B5FF;
+}
+
+.title-father{
+  margin: auto;
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+}
+
+#title{
+  text-align: center;
+  font-size: 30pt;
+  color: black;
+  padding: 30px;
+}
+
+#title span{
+  color: #47B1FF;
+}
+
+.main{
+  background-color: black;
+  width: 100vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.main p{
+  text-indent: 10px;
+  font-size: 20pt;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.footer-father{
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+footer{
+  padding: 10px;
+  font-size: 10pt;
+  text-align: center;
+  color: white;
+}
+
+.cont{
+  left: 87vw;
+  top: 31px;
+  position: relative;
+  width: 30px;
+  display: block;
+}
+
+.cont .span{
+  transition: 0.3s;
+  border-radius: 2px;
+  position: absolute;
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+.cont .span:nth-child(1){
+  top: 0;
+}
+.cont .span:nth-child(2){
+  top: 8px;
+}
+.cont .span:nth-child(3){
+  top: 16px;
+}
+
+nav{
+  left: -200px;
+  width: 200px;
+  top: 0;
+  position: absolute;
+  background-color: rgba(16,16,16,0.9);
+  height: 400px;
+  transition: 0.5s;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav ul{
+  padding: 35px;
+}
+
+nav div{
+  margin-top: 40px;
+  border-radius: 30px;
+  background-color: #47B5FF;
+}
+
+nav a{
+  font-size: 10pt;
+  color: black;
+  padding: 15px 15px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+#button{
+  margin-left: 20vw;
+  text-align: center;
+  width: 60vw;
+  border-radius: 40px;
+  background-color: #47B5FF;
+}
+
+#button h2{
+  font-size: 30pt;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+#button span{
+  color: white;
+}
+
+#father-nameG{
+  font-size: 50pt;
+  margin-top: 60px;
+  text-align: center;
+  color: #47B5FF;
+}
+
+#father-nameG h3{
+  text-align: center;
+  padding: 0px;
+}
+
+#father-nameG span{
+  color: white;
+  font-size: 50pt;
+}
+
